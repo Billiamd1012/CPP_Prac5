@@ -39,7 +39,7 @@ std::unique_ptr<Pie> PieFactory::makePieUnique(const std::string &type) const {
   
   // TODO
 
-//  return nullptr; // this will be implicitly wrapped in a unique_ptr object
+  return nullptr; // this will be implicitly wrapped in a unique_ptr object
 //  return std::unique_ptr{}; // or you could make it explicit
 }
 
